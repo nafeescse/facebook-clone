@@ -7,7 +7,7 @@ import { MdNotificationsNone } from 'react-icons/md'
 const Navbar = () => {
     return (
         <div class="navbar bg-error">
-            <div class="navbar-start pl-24">
+            <div class="navbar-start pl-15">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-white lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -47,7 +47,7 @@ const Navbar = () => {
                                 Adnan Chowdhury
                                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                             </a>
-                            <ul class="p-2 bg-error w-48">
+                            <ul class="p-2 bg-error w-48 z-10">
                                 <li><a>Profile</a></li>
                                 <li><a>Feeds</a></li>
                                 <li><a>Friends</a></li>
