@@ -19,7 +19,7 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <div className='mx-auto'><img className='w-24 ' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Facebook.svg/2560px-Facebook.svg.png" alt="" /></div>
+                <div className='mx-2 lg:mx-auto'><img className='w-24' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Facebook.svg/2560px-Facebook.svg.png" alt="" /></div>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </div>
                 </ul>
             </div>
-            <div class="navbar-end pr-1 md:pr-24">
+            <div class="navbar-end pr-0 md:pr-24">
                 <div class="flex-none text-white">
                     <ul class="menu menu-horizontal p-0">
                         <li tabindex="0">
@@ -44,7 +44,7 @@ const Navbar = () => {
                                         <img src="https://placeimg.com/192/192/people" />
                                     </div>
                                 </div>
-                                Adnan Chowdhury
+                                Adnan <span className='hidden md:block'>Chowdhury</span>
                                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                             </a>
                             <ul class="p-2 bg-error w-48 z-10">

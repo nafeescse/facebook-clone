@@ -27,7 +27,7 @@ const Home = () => {
 
 
                 {/* Left Sidebar */}
-                <div className='hidden xl:block'>
+                <div className='hidden lg:block'>
                     <div class="card w-64 bg-base-100 shadow-xl rounded-md mb-2">
                         <div class="card-body">
                             <h2 class="card-title font-bold">Explore</h2>
@@ -72,7 +72,7 @@ const Home = () => {
                 <div className=''>
                     {/* Stories */}
                     <div className='mb-2 flex gap-2'>
-                        <div class="card w-32 h-[180px] 0lg:card-side bg-white rounded-md">
+                        <div class="card w-[122px] md:w-32 h-[180px] 0lg:card-side bg-white rounded-md">
                             <figure><img className='h-100' src="https://www.kindpng.com/picc/m/65-653274_workers-compensation-law-social-security-disability-user-icon.png" alt="Album" /></figure>
                             <div className='bg-[#3B3B3B] h-24 rounded-t-2xl text-center text-white pt-3 static'>
                                 <div class="absolute bottom-9 left-12 badge badge-primary font-bold">+</div>
@@ -81,7 +81,7 @@ const Home = () => {
                         </div>
 
 
-                        <div class="card w-32 h-[180px] 0lg:card-side rounded-md flex items-center justify-center bg-[#9c9a9a]">
+                        <div class="card w-[122px] md:w-32 h-[180px] 0lg:card-side rounded-md flex items-center justify-center bg-[#9c9a9a]">
                             <div class="avatar absolute top-1 right-2">
                                 <div class="w-7 rounded-full">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsAxftHW7ex0ZIqqlCZ2rBDZPYJICgOBBvlw&usqp=CAU" />
@@ -92,7 +92,7 @@ const Home = () => {
                         </div>
 
 
-                        <div class="card w-32 h-[180px] 0lg:card-side rounded-md flex items-center justify-center bg-[#9c9a9a]">
+                        <div class="card w-[122px] md:w-32 h-[180px] 0lg:card-side rounded-md flex items-center justify-center bg-[#9c9a9a]">
                             <div class="avatar absolute top-1 right-2">
                                 <div class="w-7 rounded-full">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsAxftHW7ex0ZIqqlCZ2rBDZPYJICgOBBvlw&usqp=CAU" />
@@ -119,7 +119,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div class="divider"></div>
-                            <div className='flex items-center gap-1 justify-around font-bold'>
+                            <div className='flex items-center gap-3 justify-around font-bold text-sm lg:text-lg'>
                                 <div className='flex items-center gap-2'>
                                     <CgDarkMode /> Background
                                 </div>
@@ -887,7 +887,7 @@ const Home = () => {
                                 </ul>
 
                             </div>
-                            <div className="bg-gradient-to-r from-red-700 to-blue-800 w-[380px ]md:w-[520px] h-[400px] static z-0 rounded-md"><p className='absolute top-56 left-14 z-10 text-3xl font-bold text-white text-center'>Click your home icon to rerfresh feed !</p></div>
+                            <div className="bg-gradient-to-r from-red-700 to-blue-800 w-[390px] md:w-[520px] h-[390px] md:h-[500px] static z-0 rounded-md"><p className='absolute top-56 left-14 z-10 text-3xl font-bold text-white text-center'>Click your home icon to rerfresh feed !</p></div>
 
 
                             <div className='flex justify-between'>
