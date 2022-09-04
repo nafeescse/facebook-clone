@@ -34,7 +34,7 @@ const Navbar = () => {
                     </div>
                 </ul>
             </div>
-            <div class="navbar-end pr-24">
+            <div class="navbar-end pr-1 md:pr-24">
                 <div class="flex-none text-white">
                     <ul class="menu menu-horizontal p-0">
                         <li tabindex="0">
