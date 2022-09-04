@@ -300,7 +300,7 @@ const Home = () => {
                                 <img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989__480.jpg" alt="" className='w-1/2' />
                                 <img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989__480.jpg" alt="" className='w-1/2' />
                             </div>
-                            <div className='flex gap-2'>
+                            <div className='flex gap-2 pr-2'>
                                 <img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989__480.jpg" alt="" className='w-1/3' />
                                 <img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989__480.jpg" alt="" className='w-1/3' />
                                 <img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989__480.jpg" alt="" className='w-1/3' />
@@ -887,7 +887,7 @@ const Home = () => {
                                 </ul>
 
                             </div>
-                            <div className="bg-gradient-to-r from-red-700 to-blue-800 w-[390px] md:w-[520px] h-[390px] md:h-[500px] static z-0 rounded-md"><p className='absolute top-56 left-14 z-10 text-3xl font-bold text-white text-center'>Click your home icon to rerfresh feed !</p></div>
+                            <div className="bg-gradient-to-r from-red-700 to-blue-800 w-[350px] md:w-[520px] h-[350px] md:h-[500px] static z-0 rounded-md"><p className='absolute top-56 left-16 z-10 text-xl md:text-3xl font-bold text-white text-center pr-7'>Click your home icon to rerfresh feed !</p></div>
 
 
                             <div className='flex justify-between'>
